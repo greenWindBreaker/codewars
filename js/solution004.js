@@ -7,6 +7,6 @@
 }
 */
 // my solution below:
-const reverseList = (list) => list.reverse()
+const reverseList = list => list.reverse()
 // i used const as my variable but it would still work with lets variable
 //arrow function elimate the return word and curly brackets so that the code fits in one line 
