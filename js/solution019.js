@@ -3,6 +3,6 @@
 //supplied array will not be empty
 class SmallestIntegerFinder {
     findSmallestInt(args){
-        return Math.min(...args)
+        return Math.min(...args)//spread operator allows us to use an array inside Math.min()
     }
 }
