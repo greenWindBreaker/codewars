@@ -5,3 +5,4 @@
 const move = (c,roll)=> c+roll*2
 
 console.log(move(5,5))//15
+
