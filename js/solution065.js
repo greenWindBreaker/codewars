@@ -1,5 +1,5 @@
 //solution065
-
+// eliminate all bugs from the supplied code so that the code runs and outputs the expected value. Output should be the length of the longest word, as a number.
 function findLongest(str){
   
     var spl = str.split(" ");
