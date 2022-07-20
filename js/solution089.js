@@ -13,6 +13,8 @@ function distinct(a){
     return b
 }
 
-console.log(distinct([1,2,3,4,4,5,6]))//123456
-console.log(distinct([1,1,2]))//12
-console.log(distinct([1]))//1
+//const distinct = a => a.filter((item, index) => a.indexOf(item) === index);
+
+console.log(distinct([1,2,3,4,4,5,6]))//[1,2,3,4,5,6]
+console.log(distinct([1,1,2]))//[1,2]
+console.log(distinct([1]))//[1]
