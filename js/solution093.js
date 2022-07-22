@@ -12,3 +12,4 @@ console.log(isReallyNaN(undefined))
 console.log(isReallyNaN(false))
 console.log(isReallyNaN(true))
 console.log(isReallyNaN(0))
+console.log(isReallyNaN(NaN))//true
