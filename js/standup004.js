@@ -15,6 +15,12 @@
 //}
 const getAverage = arr => Math.floor(arr.reduce((acc,c)=> acc + c)/arr.length)
 
+//testcases:
 console.log(getAverage([2,2,2,2]))//2
 console.log(getAverage([1,2,3,4,5]))//3
 console.log(getAverage([1,1,1,1,1,1,2]))//1
+
+//what if you dont know the solution? 
+//do the prep, and ask for hints
+//IMPORTANT: dont sweat it! its 1 of 60
+//target medium sized companies
