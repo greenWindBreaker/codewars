@@ -16,4 +16,4 @@ function solution(number){
 }
 //testcases:
 console.log(solution(10))//23 = 3+5+6+9
-console.log(solution(31))//
+console.log(solution(31))//225
