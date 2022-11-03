@@ -11,9 +11,13 @@
 // last('what time are we climbing up the volcano'), ['time', 'are', 'we', 'the', 'climbing', 'volcano', 'up', 'what']
 // last('take me to semynak'), ['take', 'me', 'semynak', 'to']
 
-function last(str){
-
+function sortLastChar(x){
+    //split & sort method, sort is lexagraphical sort by defualt
+    //could use slice or localeCompare
+    //sort ->
+    return x.split(' ').sort((a,b)=> a.charCodeAt(a.length - 1) -b.charCodeAt(b.length - 1))//charCodeat starts counint at 0 so we do - 1. to grab the last letter, 
+    //return x.split(' ').sort((a,b)=> a.slice(-1) > b.slice(-1)) // slice method.. WIP 
 }
 
-console.log()
-console.log()
+console.log(sortLastChar('man i need a taxi up to ubud'))//['a', 'need', 'ubud', 'i', 'taxi', 'man', 'to', 'up']
+console.log(sortLastChar('what time are we climbing up the volcano'))//['time', 'are', 'we', 'the', 'climbing', 'volcano', 'up', 'what']
