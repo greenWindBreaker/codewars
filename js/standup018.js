@@ -26,7 +26,10 @@ console.log(solution([1, 3, 6, 4, 1, 2]))//5
 // If the average length is not an integer, use Math.round().
 // The input array's length > 1
 function avgLengthRepeat(arr){
-
+    //get avg length -> rounded
+    //create new arr using each letter the avgLength amount
+    const avgLength = arr.join('').length / arr.length
+    return arr.map(str=> str[0].repeat(avgLength))
 }
 console.log(avgLengthRepeat(['aa', 'bbb', 'cccc']))// ['aaa', 'bbb', 'ccc'] average length is 3
 console.log(avgLengthRepeat(['aa', 'bb', 'ddd', 'eee']))//['aaa', 'bbb', 'ddd', 'eee']  average length is 2.5 round up to 3
