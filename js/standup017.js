@@ -13,9 +13,12 @@
 function sortArray(arr){
     //we know we will sort, and grabbing odd numbers
     //filter -> sort -> map
-    //const oddNums = arr.filter(n=> n %2 !== 0)//looking at each individual number in the arr, grabing odd numbers
-    const oddNums = arr.filter(n=> n %2  !== 0).sort((a,b)=> a-b)
-    return arr.map(n=> n %2 === 0 ? n : oddNums.shift())// map creating new arr and if its even just return that num, if its not even
+    //const oddNums = arr.filter(n=> n %2 !== 0)//looking at each individual number in the arr, grabing all odd numbers
+    //const oddNums = arr.filter(n=> n %2  !== 0).sort((a,b)=> a-b)//gives us sorted odd numbers, sorting in asc
+    const oddNums = arr.filter(n=> n %2  !== 0).sort((a,b)=> b-a)//now sorting in dsc
+    //return arr.map(n=> n %2 === 0 ? n : oddNums.shift())// looping through;map creating new arr and if its even just return that num, if its not even
+    //shift(), its happenging in O(n) so it will cause complexitiy issues
+    return arr.map(n=> n %2 === 0 ? n : oddNums.pop())// with add dsc ordering and pop(), this happens in linear 
 }
 console.log(sortArray([7, 1]))//[1,7]
 console.log(sortArray([5, 8, 6, 3, 4]))//[3, 8, 6, 5, 4]
