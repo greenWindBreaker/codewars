@@ -11,3 +11,5 @@ function removeDupeWords(str){
     //will take a str, and split(" ") and then filter()
     return str.split(' ').filter((w,i,a)=> w != a[i-1]).join(' ')
 }
+
+console.log(removeDupeWords("alpha beta beta gamma gamma gamma delta alpha beta beta gamma gamma gamma delta"))//"alpha beta gamma delta alpha beta gamma delta"

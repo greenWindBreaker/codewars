@@ -1,4 +1,5 @@
 //standup020
+//11/22/22: standup for taday was all Q&A. 
 //test-assment for codility
 //sample test, 'missing integar'
 function solution(A) {
