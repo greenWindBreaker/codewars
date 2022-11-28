@@ -1,5 +1,5 @@
 //standup020
-//11/22/22: standup for taday was all Q&A. 
+//11/22/22: standup for today was all Q&A. 
 //test-assment for codility
 //sample test, 'missing integar'
 function solution(A) {
@@ -28,4 +28,4 @@ console.log(solution([1, 3, 6, 4, 1, 2]))//5
 console.log(solution([1, 3, 10, 4, 1, 2]))//5
 console.log(solution([-1, -3, -10, -4, -1, -2]))
 
-//real Codility test
+
