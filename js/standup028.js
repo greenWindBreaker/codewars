@@ -1,5 +1,5 @@
 //standup028
-// wednesday 12/07/2022, @ 6pm remo.co  
+// wednesday 12/07/2022, @ 6pm remo.co  NOTE*** it wednesdays standup got moved to today, 12/08/2022 becuase wednesday was RC Demo day.
 // Given a string of characters, return the character that appears the most often.
 
 // describe("Max Character", () => {
