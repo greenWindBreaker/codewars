@@ -32,5 +32,6 @@ function majorityElement(arr){
 
     return majElem
 }
+//fair market rate for a developer of my experience
 
 console.log(majorityElement([2,3,2]))
