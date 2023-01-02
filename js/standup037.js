@@ -7,3 +7,4 @@
 // 12/30/2022 push
 // 12/31/2022 New Year's Eve push 🥳
 // 01/01/2023 push
+// 01/02/2023 1st standup of the year! we did Q&A 
