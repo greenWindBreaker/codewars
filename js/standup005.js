@@ -16,6 +16,8 @@ function repeats(arr){
     //arr -> filter single values -> reduce to get a sum
     //want to see if a num repeats, trick -> index of num is last index of num
     //return arr.filter(n=> arr.indexOf(n)=== arr.lastIndexOf(n))//if true we know its a singu;ar, if not we know there is another version of that number in the arr
+    //The indexOf() method returns the first index at which a given element can be found in the array, or -1 if it is not present.
+    //The lastIndexOf() method returns the last index at which a given element can be found in the array, or -1 if it is not present.
     return arr.filter(n=> arr.indexOf(n)=== arr.lastIndexOf(n)).reduce((a,c)=> a + c,0)
 }
 //need these methods in Anki
