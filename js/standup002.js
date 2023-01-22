@@ -16,14 +16,15 @@ console.log(getAverage([1,2,3,4,5]))//3
 const repeats = arr => arr.filter((n)=> arr.indexOf(n) === arr.lastIndexOf(n)).reduce((a,c)=> a+c,0)
 console.log(repeats([4,5,7,5,4,8]))//15
 //---------------------------
-// Given an array of digital numbers, return a new array of length number containing the last even numbers from the original array (in the same order). The original array will be not empty and will contain at least "number" even numbers.
-// For example:
-// ([1, 2, 3, 4, 5, 6, 7, 8, 9], 3) => [4, 6, 8]
-// ([-22, 5, 3, 11, 26, -6, -7, -8, -9, -8, 26], 2) => [-8, 26]
-// ([6, -25, 3, 7, 5, 5, 7, -3, 23], 1) => [6]
-function myFunc(arr,x){
-    //return arr.filter((e)=> e%2 ===0);//filters out all non even numbers and returns a copy of the arr with only even nums in it
-    return arr.filter((e)=> e%2 ===0).slice(-x);
-}
+const myFunc=(arr,x)=>arr.filter(e=>e%2===0).slice(-x);
 console.log(myFunc([1, 2, 3, 4, 5, 6, 7, 8, 9], 3))// [4,6,8]
 console.log(myFunc([-22, 5, 3, 11, 26, -6, -7, -8, -9, -8, 26], 2))// [-8,26]
+//---------------------------
+
+// Return the number of unique arrays that can be formed by picking exactly one element from each subarray.
+// For example: solve([[1,2],[4],[5,6]]) = 4, because it results in only 4 possibilites. They are [1,4,5],[1,4,6],[2,4,5],[2,4,6].
+// Make sure that you don't count duplicates; for example solve([[1,2],[4,4],[5,6,6]]) = 4, since the extra outcomes are just duplicates.
+// solve([[1,2],[4],[5,6]]),4)
+// solve([[1,2],[4,4],[5,6,6]]),4)
+// solve([[1,2],[3,4],[5,6]]),8)
+// solve([[1,2,3],[3,4,6,6,7],[8,9,10,12,5,6]]),72)
