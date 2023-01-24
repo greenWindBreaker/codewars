@@ -22,16 +22,17 @@ console.log(myFunc([-22, 5, 3, 11, 26, -6, -7, -8, -9, -8, 26], 2))// [-8,26]
 //---------------------------
 // Return the number of unique arrays that can be formed by picking exactly one element from each subarray.
 function solve(arr){
-    return arr.map(e=> new Set(e).size).reduce((a,c)=> a*c,1)
+    
 }
-console.log(solve([[1,2],[4,4],[5,6,6]]))//[1,2],[4],[5,6]]
+//console.log(solve([[1,2],[4,4],[5,6,6]]))//[1,2],[4],[5,6]]
 //------------------------------
-// Given an array of integers , Find the Nth smallest element in this array of integers.
-// Notes
-// Array/list size is at least 3 .
-// Array/list's numbers could be a mixture of positives , negatives and zeros .
-// Repetition in array/list's numbers could occur , so don't Remove Duplications .
-// nthSmallest({3,1,2} ,2) ==> return (2) 
-// nthSmallest({15,20,7,10,4,3} ,3) ==> return (7) 
-// nthSmallest({15,20,7,10,4,3} ,3) ==> return (7) 
-// nthSmallest({177,225,243,-169,-12,-5,2,92} ,5) ==> return (92) 
+//Given a string, return a new string that has transformed based on the input:
+
+// Change case of every character, ie. lower case to upper case, upper case to lower case.
+// Reverse the order of words from the input.
+// Note: You will have to handle multiple spaces, and leading/trailing spaces.
+
+// For example:
+
+// "Example Input" ==> "iNPUT eXAMPLE"
+// You may assume the input only contain English alphabet and spaces.
