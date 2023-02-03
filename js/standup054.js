@@ -24,4 +24,4 @@ function mygcd(a,b){
    return mygcd(b, a%b)
 }
 
-console.log(mygcd(30,12))
+console.log(mygcd(30,12))//6
