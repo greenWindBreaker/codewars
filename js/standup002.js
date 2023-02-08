@@ -20,13 +20,18 @@ const myFunc=(arr,x)=>arr.filter(e=>e%2===0).slice(-x);
 console.log(myFunc([1, 2, 3, 4, 5, 6, 7, 8, 9], 3))// [4,6,8]
 console.log(myFunc([-22, 5, 3, 11, 26, -6, -7, -8, -9, -8, 26], 2))// [-8,26]
 //---------------------------
-// Return the number of unique arrays that can be formed by picking exactly one element from each subarray. standup010
+// Return the number of unique arrays that can be formed by picking exactly one element from each subarray. standup007
+// For example: solve([[1,2],[4],[5,6]]) = 4, because it results in only 4 possibilites. They are [1,4,5],[1,4,6],[2,4,5],[2,4,6].
+// Make sure that you don't count duplicates; for example solve([[1,2],[4,4],[5,6,6]]) = 4, since the extra outcomes are just duplicates.
+// solve([[1,2],[4],[5,6]]),4)
+// solve([[1,2],[4,4],[5,6,6]]),4)
+console.log("starts here:")
 function solve(arr){
-    
+    return arr.reduce((a,c)=> a* new Set(c).size,1);
 }
-//console.log(solve([[1,2],[4,4],[5,6,6]]))//[1,2],[4],[5,6]]
+console.log(solve([[1,2],[4,4],[5,6,6]]))//4
 //------------------------------
-//Given a string of words (x), you need to return an array of the words, sorted alphabetically by the final character in each. standup011
+//Given a string of words (x), you need to return an array of the words, sorted alphabetically by the final character in each. standup008
 function last(str){
 
 }
