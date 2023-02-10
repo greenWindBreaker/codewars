@@ -27,15 +27,15 @@ console.log(myFunc([-22, 5, 3, 11, 26, -6, -7, -8, -9, -8, 26], 2))// [-8,26]
 // solve([[1,2],[4,4],[5,6,6]]),4)
 console.log("starts here:")
 function solve(arr){
-    return arr.reduce((a,c)=> a* new Set(c).size,1);
+    
 }
 console.log(solve([[1,2],[4,4],[5,6,6]]))//4
 //------------------------------
-//Given a string of words (x), you need to return an array of the words, sorted alphabetically by the final character in each. standup008
+//Given a string of words (x), you need to return an array of the words, sorted alphabetically by the final character in each. standup011
 function last(str){
-
+  
 }
-console.log(last('man i need a taxi up to ubud'))
+console.log(last('man i need a taxi up to ubud'))// ['a', 'need', 'ubud', 'i', 'taxi', 'man', 'to', 'up']
 
 // Implement a difference function, which subtracts one list from another and returns the result.
 // It should remove all values from list a, which are present in list b keeping their order.
