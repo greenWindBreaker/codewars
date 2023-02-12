@@ -1,2 +1,2 @@
 //standup060
-//Friday, meeting on Discord for Teaspill @ 6pm 
+//Friday, meeting on Discord for powerhour
