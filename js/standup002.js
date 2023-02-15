@@ -16,6 +16,7 @@ console.log(getAverage([1,2,3,4,5]))//3
 const repeats = arr => arr.filter((n)=> arr.indexOf(n) === arr.lastIndexOf(n)).reduce((a,c)=> a+c,0)
 console.log(repeats([4,5,7,5,4,8]))//15
 //---------------------------
+//find dircs for this
 const myFunc=(arr,x)=>arr.filter(e=>e%2===0).slice(-x);
 console.log(myFunc([1, 2, 3, 4, 5, 6, 7, 8, 9], 3))// [4,6,8]
 console.log(myFunc([-22, 5, 3, 11, 26, -6, -7, -8, -9, -8, 26], 2))// [-8,26]
@@ -27,16 +28,17 @@ console.log(myFunc([-22, 5, 3, 11, 26, -6, -7, -8, -9, -8, 26], 2))// [-8,26]
 // solve([[1,2],[4,4],[5,6,6]]),4)
 console.log("starts here:")
 function solve(arr){
-    
+
 }
 console.log(solve([[1,2],[4,4],[5,6,6]]))//4
+console.log(solve([[1,2],[4,4,6],[5,7,6]]))//2*2*4=12
 //------------------------------
 //Given a string of words (x), you need to return an array of the words, sorted alphabetically by the final character in each. standup011
 function last(str){
-  
+    
 }
 console.log(last('man i need a taxi up to ubud'))// ['a', 'need', 'ubud', 'i', 'taxi', 'man', 'to', 'up']
-
+console.log(last('the wheels on the bus go round n round'))//['round', 'round', 'the', 'the', 'on', 'n', 'go', 'wheels', 'bus']
 // Implement a difference function, which subtracts one list from another and returns the result.
 // It should remove all values from list a, which are present in list b keeping their order.
 // arrayDiff([1,2],[1]) == [2]
