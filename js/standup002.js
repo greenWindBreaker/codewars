@@ -13,11 +13,15 @@ const getAverage=arr=>Math.floor(arr.reduce((a,c)=> a + c,0)/arr.length);
 console.log(getAverage([2,2,2,2]))//2
 console.log(getAverage([1,2,3,4,5]))//3
 //--------------------------
+//You will be given an array of numbers in which two numbers occur once and the rest occur only twice. Your task will be to return the sum of the numbers that occur only once.
+//For example, repeats([4,5,7,5,4,8]) = 15 because only the numbers 7 and 8 occur once, and their sum is 15. Every other number occurs twice.
 const repeats = arr => arr.filter((n)=> arr.indexOf(n) === arr.lastIndexOf(n)).reduce((a,c)=> a+c,0)
 console.log(repeats([4,5,7,5,4,8]))//15
 //---------------------------
-//find dircs for this
-const myFunc=(arr,x)=>arr.filter(e=>e%2===0).slice(-x);
+//Given an array of digital numbers, return a new array of length number containing the last even numbers from the original array (in the same order). The original array will be not empty and will contain at least "number" even numbers.
+function myFunc(arr,x){
+    
+}
 console.log(myFunc([1, 2, 3, 4, 5, 6, 7, 8, 9], 3))// [4,6,8]
 console.log(myFunc([-22, 5, 3, 11, 26, -6, -7, -8, -9, -8, 26], 2))// [-8,26]
 //---------------------------
@@ -28,7 +32,7 @@ console.log(myFunc([-22, 5, 3, 11, 26, -6, -7, -8, -9, -8, 26], 2))// [-8,26]
 // solve([[1,2],[4,4],[5,6,6]]),4)
 console.log("starts here:")
 function solve(arr){
-
+   
 }
 console.log(solve([[1,2],[4,4],[5,6,6]]))//4
 console.log(solve([[1,2],[4,4,6],[5,7,6]]))//2*2*4=12
@@ -39,7 +43,8 @@ function last(str){
 }
 console.log(last('man i need a taxi up to ubud'))// ['a', 'need', 'ubud', 'i', 'taxi', 'man', 'to', 'up']
 console.log(last('the wheels on the bus go round n round'))//['round', 'round', 'the', 'the', 'on', 'n', 'go', 'wheels', 'bus']
-// Implement a difference function, which subtracts one list from another and returns the result.
+//-----------------
+// Implement a difference function, which subtracts one list from another and returns the result. standup013
 // It should remove all values from list a, which are present in list b keeping their order.
 // arrayDiff([1,2],[1]) == [2]
 // If a value is present in b, all of its occurrences must be removed from the other:
@@ -47,8 +52,8 @@ console.log(last('the wheels on the bus go round n round'))//['round', 'round', 
 // arrayDiff([], [4,5]), [], "a was [], b was [4,5]"
 // arrayDiff([3,4], [3]), [4], "a was [3,4], b was [3]"
 // arrayDiff([1,8,2], []), [1,8,2], "a was [1,8,2], b was []"
-function arrayDiff(arr,arrTwo){
-
+function arrayDiff(a1,a2){
+    
 }
 console.log(arrayDiff([1,2,2,2,3],[2]))//[1,3]
 console.log(arrayDiff([], [4,5]))//[]
