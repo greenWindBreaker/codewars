@@ -9,7 +9,7 @@ console.log(parseDomainName('https://www.xombie-bites.com'))//xombie-bites
 console.log(parseDomainName('https://www.cnet.com'))//cnet
 
 function fizzBuzz(num){
-  
+    
 }
 console.log(fizzBuzz(50))
 //--------------------------
@@ -17,13 +17,13 @@ console.log("starts here:")
 //You will be given an array of numbers in which two numbers occur once and the rest occur only twice. Your task will be to return the sum of the numbers that occur only once.
 //For example, repeats([4,5,7,5,4,8]) = 15 because only the numbers 7 and 8 occur once, and their sum is 15. Every other number occurs twice.
 function repeats(arr){
- 
+    
 }
 console.log(repeats([4,5,7,5,4,8]))//15
 //---------------------------
 //Given an array of digital numbers, return a new array of length number containing the last even numbers from the original array (in the same order). The original array will be not empty and will contain at least "number" even numbers.
 function myFunc(arr,x){
-    
+  
 }
 console.log(myFunc([1, 2, 3, 4, 5, 6, 7, 8, 9], 3))// [4,6,8]
 console.log(myFunc([-22, 5, 3, 11, 26, -6, -7, -8, -9, -8, 26], 2))// [-8,26]
@@ -37,7 +37,7 @@ function solve(arr){
    
 }
 console.log(solve([[1,2],[4,4],[5,6,6]]))//4
-console.log(solve([[1,2],[4,4,6],[5,7,6]]))//2*2*4=12
+console.log(solve([[1,2],[4,4,6],[5,7,6]]))//2*1, 2*2=4, 4*3=12
 //------------------------------
 //Given a string of words (x), you need to return an array of the words, sorted alphabetically by the final character in each. standup011
 function last(str){
@@ -55,7 +55,7 @@ console.log(last('the wheels on the bus go round n round'))//['round', 'round', 
 // arrayDiff([3,4], [3]), [4], "a was [3,4], b was [3]"
 // arrayDiff([1,8,2], []), [1,8,2], "a was [1,8,2], b was []"
 function arrayDiff(a1,a2){
- 
+
 }
 console.log(arrayDiff([1,2,2,2,3],[2]))//[1,3]
 console.log(arrayDiff([], [4,5]))//[]
