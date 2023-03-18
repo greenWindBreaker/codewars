@@ -32,3 +32,6 @@ function binarySearch(nums, target) {
     return nums[left] === target ? left : -1
 }
 console.log(binarySearch([-1,0,3,5,9,12],9),"4")
+//notes from Q&A:
+//mid size start-up companys 200-300 employees, sweet spot
+//work on an established open-source project, esecippally those in a local meetup in your area
