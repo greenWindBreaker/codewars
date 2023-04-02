@@ -1,2 +1,2 @@
 //standup093
-//Saturday, 04-01-23, standup on discord @ 6pm
+//Monday, 04-03-23, standup on discord @ 6pm
