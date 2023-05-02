@@ -3,7 +3,7 @@
 //domainName("https://github.com/asesome-project/username") === 'github'
 //notes: url trad no funny biz, str
 
-const parseDomainName = url => url.replace('https://','').replace('www.','').split('.')[0]
+const parseDomainName = str => str.replace('https://','').replace('www.','').split('.')[0]
 console.log(parseDomainName('https://github.com/asesome-project/username'))//'github'
 console.log(parseDomainName('https://www.xombie-bites.com'))//xombie-bites
 console.log(parseDomainName('https://www.cnet.com'))//cnet
@@ -12,6 +12,14 @@ function fizzBuzz(num){
    
 }
 console.log(fizzBuzz(50))
+
+
+
+
+
+
+
+
 //--------------------------
 console.log("starts here:")
 //You will be given an array of numbers in which two numbers occur once and the rest occur only twice. Your task will be to return the sum of the numbers that occur only once.
