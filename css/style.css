@@ -1,3 +1,6 @@
 body{
-    background: #F0E3D5;
+    /* background: #F0E3D5; */
+    background-image: url('https://mir-s3-cdn-cf.behance.net/project_modules/1400/486bb545799661.583da5365c578.jpg');
+    background-repeat: no-repeat;
+    background-color: #102C3A;
 }
