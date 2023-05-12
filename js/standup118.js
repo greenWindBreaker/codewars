@@ -1,4 +1,6 @@
 //standup118
+//Thursday, 05-11-23, standup on discord @ 6pm
 
-const getAverage=marks=>Math.floor(marks.reduce((a,c)=>a+c,0)/marks.length)
-console.log(getAverage([1,2,3,4,5]))//3
+const feast=(b,d)=>b.charAt(0)===d.charAt(0)&&b.charAt(b.length-1)===d.charAt(d.length-1)
+console.log(feast('bear','biscuitsr'))
+console.log(feast('bear','candy apples'))
