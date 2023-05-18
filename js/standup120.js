@@ -1,2 +1,3 @@
 //standup120
-//Friday, 05-19-23, standup on discord @ 6pm 
+//Thursday, 05-18-23, standup on discord @ 6pm 
+//no standup today, webcast tmrw
