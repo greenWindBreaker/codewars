@@ -1,2 +1,2 @@
 //standup125
-//Monday, 
+//Monday 
