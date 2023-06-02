@@ -1,5 +1,6 @@
 //solution213
-function rowYourBoat(boat){
-    return `row rwo row your ${boat}, gently down the stream`
+function fizzbuzz(x){
+    
+    return `place holder, your num is ${x}`
 }
-console.log(rowYourBoat('boat'))
+console.log(fizzbuzz(100))
