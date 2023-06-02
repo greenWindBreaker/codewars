@@ -1,4 +1,6 @@
 //solution212
+//Given three integers a ,b ,c, return the largest number obtained after inserting the following operators and brackets: +, *, ()
+//try every combination of a,b,c with [*+()] , and return the Maximum Obtained
 function x(a,b,c){
     let way1=a*(b+c)
     let way2=a*b*c
